@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 def palindrome_check(input_string)
   result = if input_string == input_string.reverse
              'String is palindrome!'

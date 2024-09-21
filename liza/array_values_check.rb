@@ -1,11 +1,9 @@
-# frozen_string_literal: true
-
-def check_values_greater5(input_array)
-  amount_items_greater5 = 0
+def greater_than_five(input_array)
+  greater_than_five_items_amount = 0
   input_array.each do |element|
-    amount_items_greater5 += 1 if element.to_i > 5
+    greater_than_five_items_amount += 1 if element.to_i > 5
   end
-  puts "Amount of items greater than 5 is: #{amount_items_greater5}"
+  puts "Amount of items greater than 5 is: #{greater_than_five_items_amount}"
 end
 
 def array_input
@@ -21,4 +19,4 @@ def array_input
   array
 end
 
-check_values_greater5(array_input)
+greater_than_five(array_input)
