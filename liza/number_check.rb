@@ -1,8 +1,8 @@
 def number_check(num)
   result = if qualify?(num)
-             'The number is qualify.'
+             'The number qualifies.'
            else
-             'The number is not qualify.'
+             'The number does not qualify.'
            end
   puts result
 end
